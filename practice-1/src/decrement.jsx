@@ -11,13 +11,20 @@ class Decrement extends Component{
     }
 
     //called before component is rendered. initialize values from props
-    static  getDerivedStateFromProps(props,state){
+ /*    static  getDerivedStateFromProps(props,state){
         // console.log(props)
         //console.log(state)
 
-
+    
         return {property: Number(props.value)}
+    } */
+
+    // Called to determine whether the change in props and state should trigger a re-render.
+    shouldComponentUpdate(){
+        console.log("Called to determine whether the change in props and state should trigger a re-render.")
+        return true;
     }
+
 
     handleClick = ()=>{
             this.setState((previousState)=>{
