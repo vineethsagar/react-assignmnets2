@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Decrement from './decrement'
+import FuncComponent from "./Functional"
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App color= "red"/>
     <Decrement value="0" />
+    <FuncComponent />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

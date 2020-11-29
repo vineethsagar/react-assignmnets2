@@ -33,6 +33,7 @@ class App extends Component{
         <h1>Increment : {this.state.property}</h1>
         <button onClick={this.handleClick}>Change</button>
         {console.log("rendered : increment")}
+        
       </>
     )
   }
