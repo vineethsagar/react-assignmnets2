@@ -1,4 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
+
 import reducers from ".";
 
 import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
